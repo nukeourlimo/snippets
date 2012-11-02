@@ -1,0 +1,39 @@
+
+<div class="feature-content">
+								<h2>
+
+								<a href="http://demo.themezilla.com/viewport/rediscovering-a-shortcut-to-an-hourglass-figure/" title="Permanent Link to Rediscovering a Shortcut to an Hourglass Figure. A Must Read.">Rediscovering a Shortcut to an Hourglass Figure. A Must Read.</a></h2>
+								<div class="feature-content-meta">
+									<span class="author">By <a href="http://demo.themezilla.com/viewport/author/ormanclark/" title="Posts by Orman Clark" rel="author">Orman Clark</a></span>
+									<span class="meta-sep">/</span>
+									<span class="published">07 May 2012</span>
+									<span class="meta-sep">/</span>
+									<span class="comment-count"><a href="http://demo.themezilla.com/viewport/rediscovering-a-shortcut-to-an-hourglass-figure/#comments" title="Comment on Rediscovering a Shortcut to an Hourglass Figure. A Must Read.">4 Comments</a></span>
+								</div>
+								<div class="feature-navigation"><a href="#" class="prev">Prev</a> <a href="#" class="next">Next</a></div>
+							</div>
+
+.feature-content h1, .feature-content h2 {
+display: block;
+font-family: 'Bitter', serif;
+font-weight: bold !important;
+font-size: 34px;
+line-height: 44px;
+max-width: 450px;
+margin-left: 10px;
+
+}
+
+.feature-content h2 a, .feature-content h1 span {
+background: rgba(255, 255, 255, 0.4);
+box-shadow: 10px 0 0 rgba(255, 255, 255, 0.4), -10px 0 0 rgba(255, 255, 255, 0.4);
+padding: 2px 0;
+font-weight: normal;
+}
+
+.feature.light a {
+color: #202222;
+text-decoration: none;
+font-weight: normal;
+border: 0;
+}

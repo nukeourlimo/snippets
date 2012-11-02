@@ -1,0 +1,20 @@
+=connect to tapestry server
+ssh -i ~/.ssh/tapestry.pem ubuntu@tapestry.mobi
+
+
+=connect to deverywhere
+ssh -i ~/.ssh/everywhere2011imac.pem ubuntu@ci.deverywhere.co.uk
+
+
+=exit ssh session
+^D
+
+
+=close unused apache
+sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper stop
+
+
+=make site on deverywhere (dupe)
+cd /etc/apache2/sites-available/
+
+a2ensite [name]
