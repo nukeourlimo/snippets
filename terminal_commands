@@ -18,3 +18,14 @@ sudo /opt/local/etc/LaunchDaemons/org.macports.apache2/apache2.wrapper stop
 cd /etc/apache2/sites-available/
 
 a2ensite [name]
+
+=terminal ftp
+
+ftp [url]
+
+$ lcd = specify local path
+$ get = get from server
+$ put = put on server
+
+
+
